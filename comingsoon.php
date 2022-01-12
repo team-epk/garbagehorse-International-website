@@ -18,11 +18,14 @@
 		<?php include("includes/navigation.php"); ?>
 	</div>
 
-	<div class="main">
-			<span id="about"><p>Garbagehorse International wants to change the way people think about and create theater.
-				<br />Refer to <a href="manifesto.php">the Manifesto</a> for more details.</p></span>
-		<img src="img/front_page_image.png" alt="a mix of projects">
-	</div>
+<div class="main">
+	<span class="comingsoon">
+		<h1>Pandemic got you down?</h1>
+		<p>Yeah, us too. Things are on hold for a little while until it gets safer out there.</p>
+		<p>In the meantime, you can look at <a href="https://www.wbur.org/news/2020/08/07/apollinaire-theatre-chelsea-people">what we were a part of</a> 400 years ago in the summer of 2020.</p>
+		<p>Don't worry, things are brewing (online classes, virtual experiences, etc.), we're just not ready to share yet.
+	</span>
+</div>
 
 	<div class="footer">
 		<?php include("includes/footer.php"); ?>

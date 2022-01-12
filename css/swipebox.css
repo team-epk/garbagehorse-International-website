@@ -1,66 +1,4 @@
 /*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
-/*@font-face {
-	font-family: 'Bungee Shade';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/bungee-shade-v4-latin-regular.eot');
-	/* IE9 Compat Modes */
-	src: local('Bungee Shade'), local('BungeeShade-Regular'),
-		url('../fonts/bungee-shade-v4-latin-regular.eot?#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('../fonts/bungee-shade-v4-latin-regular.woff2') format('woff2'),
-		/* Super Modern Browsers */
-		url('../fonts/bungee-shade-v4-latin-regular.woff') format('woff'),
-		/* Modern Browsers */
-		url('../fonts/bungee-shade-v4-latin-regular.ttf') format('truetype'),
-		/* Safari, Android, iOS */
-		url('../fonts/bungee-shade-v4-latin-regular.svg#BungeeShade') format('svg');
-	/* Legacy iOS */
-/*}
-
-@font-face {
-	font-family: 'Didact Gothic';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/didact-gothic-v12-latin-regular.eot');
-	/* IE9 Compat Modes */
-	src: local('Didact Gothic Regular'), local('DidactGothic-Regular'),
-		url('../fonts/didact-gothic-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('../fonts/didact-gothic-v12-latin-regular.woff2') format('woff2'),
-		/* Super Modern Browsers */
-		url('../fonts/didact-gothic-v12-latin-regular.woff') format('woff'),
-		/* Modern Browsers */
-		url('../fonts/didact-gothic-v12-latin-regular.ttf') format('truetype'),
-		/* Safari, Android, iOS */
-		url('../fonts/didact-gothic-v12-latin-regular.svg#DidactGothic') format('svg');
-	/* Legacy iOS */
-}*/
-
-
-/*body {
-	background-color: #4A505D;
-}*/
-/*.swipebox {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 5;
-    background-color: #e47e3f;
-    margin: auto;
-}
-
-h1 {
-   font-family: 'Bungee Shade' , sans-serif;
-    color: #F0EFE8;
-    text-align: center;
-}
-
-/*.thumb_gallery {
-margin-left: auto;
-margin-right: auto;
-}*/
-
 html.swipebox-html.swipebox-touch {
   overflow: hidden !important;
 }
@@ -336,15 +274,10 @@ html.swipebox-html.swipebox-touch {
     max-width: 800px;
   }
 }
-/* Skin
+/* Skin 
 --------------------------*/
-header {
-    background-color: #A1563C;
-    padding: 10px;
-
-}
 #swipebox-overlay {
-  background: #A1563C;
+  background: #0d0d0d;
 }
 
 #swipebox-bottom-bar,
@@ -358,5 +291,5 @@ header {
   color: white !important;
   font-size: 15px;
   line-height: 43px;
-  font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
